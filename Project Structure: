@@ -1,0 +1,11 @@
+fraud_detection/
+│── sql/
+│   │── data_preparation.sql
+│   │── eda.sql
+│   │── feature_engineering.sql
+│   │── fraud_detection.sql
+│   │── evaluation.sql
+│── ml/
+│   │── fraud_detection.py
+│── README.md
+│── requirements.txt
