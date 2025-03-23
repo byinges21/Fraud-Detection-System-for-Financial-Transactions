@@ -1,0 +1,6 @@
+# Ignore database credentials
+config.ini
+*.pyc
+__pycache__/
+.env
+.DS_Store
