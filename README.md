@@ -18,6 +18,8 @@ This project focuses on detecting fraudulent transactions using SQL-based patter
 │ ├── evaluation.sql # Evaluate SQL-based fraud detection
 │
 ├── ml/
-│ ├── fraud_detection.py # Machine learning model for fraud detection
+│ ├── fraud_detection.py 
+# Machine learning model for fraud detection
 │
-├── README.md # Project documentation
+├── README.md 
+# Project documentation
