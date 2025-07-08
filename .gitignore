@@ -1,6 +1,14 @@
-# Ignore database credentials
-config.ini
-*.pyc
+# Virtualenv & Python cache
+env/
+venv/
 __pycache__/
+*.py[cod]
+
+# Secrets
 .env
+
+# macOS & Misc
 .DS_Store
+```
+
+---
