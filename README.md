@@ -38,37 +38,28 @@ sql/  → SQL scripts (setup, features, rules, EDA)
 weighted avg       0.97      0.97      0.97       550
 ```
 
-## License
-MIT
-``` (outline)
-```markdown
-# Fraud Detection System for Financial Transactions
+### Confusion Matrix
+```
+[[485   5]
+ [ 11  49]]
+```
 
-Detect suspicious transactions using SQL heuristics **and** a Random Forest classifier.
+### Visualization Preview
 
-## Features
-- 🔎 Rule‑based checks for late‑night, high‑value transactions
-- 🤖 Machine‑learning model trained on engineered features
-- 📊 Evaluation with precision, recall & F1‑score
-- 🐘 PostgreSQL backend
+You can visualize the confusion matrix and ROC curve using the notebook in `notebooks/fraud_model_analysis.ipynb`.
 
-## Quickstart
+### Streamlit App
+- 📍 **Live Demo**: [https://fraud-detection-demo.streamlit.app](https://fraud-detection-demo.streamlit.app)
+- Upload a CSV with columns `transaction_amount`, `hour_of_day`, and `high_value` to see fraud predictions live.
+
 ```bash
-# Clone & install
-pip install -r requirements.txt
-cp .env.example .env  # fill in DB creds
-psql < sql/data_preparation.sql
-psql < sql/feature_engineering.sql
-python ml/fraud_detection.py
+streamlit run app.py
 ```
 
-## Project structure
-```
-ml/   → Python ML pipeline
-sql/  → SQL scripts (setup, features, rules, EDA)
-```
-
-## Results
+The Streamlit UI displays:
+- Flagged fraud transactions
+- A confusion matrix
+- Feature importances
 ![classification report screenshot](docs/classification_report.png)
 
 ## License
