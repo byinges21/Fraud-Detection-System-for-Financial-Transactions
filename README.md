@@ -1,7 +1,9 @@
 ## README.md (outline)
 ```markdown
 # Fraud Detection System for Financial Transactions
+Overview
 
+This project focuses on detecting fraudulent transactions using SQL-based pattern detection and a machine learning model implemented in Python. The goal is to analyze financial transaction data and classify transactions as fraudulent or legitimate.
 Detect suspicious transactions using SQL heuristics **and** a Random Forest classifier.
 
 ## Features
