@@ -53,7 +53,6 @@ You can visualize the confusion matrix and ROC curve using the notebook in [frau
 
 ### Streamlit App
 - 📍 **Live Demo**: [https://fraud-detection-demo.streamlit.app](https://fraud-detection-demo.streamlit.app)
-- Upload a CSV with columns `transaction_amount`, `hour_of_day`, and `high_value` to see fraud predictions live.
 
 ```bash
 streamlit run app.py
@@ -63,6 +62,5 @@ The Streamlit UI displays:
 - Flagged fraud transactions
 - A confusion matrix
 - Feature importances
-![classification report screenshot](docs/classification_report.png)
 
 
