@@ -48,7 +48,8 @@ weighted avg       0.97      0.97      0.97       550
 
 ### Visualization Preview
 
-You can visualize the confusion matrix and ROC curve using the notebook in `[fraud_model_analysis.ipynb](https://github.com/byinges21/Fraud-Detection-System-for-Financial-Transactions/blob/main/fraud_model_analysis.ipynb)`.
+You can visualize the confusion matrix and ROC curve using the notebook in [fraud_model_analysis.ipynb](https://github.com/byinges21/Fraud-Detection-System-for-Financial-Transactions/blob/main/fraud_model_analysis.ipynb)
+
 
 ### Streamlit App
 - 📍 **Live Demo**: [https://fraud-detection-demo.streamlit.app](https://fraud-detection-demo.streamlit.app)
