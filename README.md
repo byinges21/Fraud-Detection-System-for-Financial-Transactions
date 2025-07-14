@@ -65,7 +65,4 @@ The Streamlit UI displays:
 - Feature importances
 ![classification report screenshot](docs/classification_report.png)
 
-## License
-MIT
-```
 
